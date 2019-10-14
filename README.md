@@ -18,4 +18,8 @@
  
  -Abaixo segue um overview sobre o comportamento da aplicação
  
+ ### FLUXO DA APLICAÇÃO
+ 
+ - btoFilterByVivaReal ou btoFilterByZap - (eVENTOS INICIAIS) 
+ 
 
