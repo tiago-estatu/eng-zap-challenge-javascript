@@ -46,7 +46,3 @@
    * preparaDetalhes() - Renderiza ficha detalhe do imóveil selecionado
                         |- função armazenada em arquivos externo, mesma pasta 'template-detalhe-imovel.js'
  */
-
-
-
-
