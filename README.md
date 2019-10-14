@@ -1,5 +1,5 @@
- | eng-zap-challenge-javascript
- # Para rodar localmente, baixar a pasta
+ |eng-zap-challenge-javascript
+ | Para rodar localmente, baixar a pasta
  # Abrir a pasta e carregar o index.html
  # Abrir a pasta e carregar o index.html
  # Não há nenhuma dependencias ou adoção de libs externos 
