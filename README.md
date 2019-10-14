@@ -9,14 +9,14 @@
 - Testes na pasta teste-console / logs prints
 
 - Na pasta teste-console também há um PDF nome (FLUXOGRAMA-TRATAMENTO-DADOS) 
-    |- contendo a lógica que utilizei para realizar a filtragem dos dados
+- contendo a lógica que utilizei para realizar a filtragem dos dados
 
 
 
 
   - Abaixo segue um overview sobre o comportamento da aplicação
 
-  
+  /*
    * ************************* FLUXO DA APLICAÇÃO ****************************
    * 
    * btoFilterByVivaReal || btoFilterByZap - (eVENTOS INICIAIS) - 
@@ -45,7 +45,7 @@
    * startSessionStoragePrinterOnePage() - amazenamento local
    * preparaDetalhes() - Renderiza ficha detalhe do imóveil selecionado
                         |- função armazenada em arquivos externo, mesma pasta 'template-detalhe-imovel.js'
-
+ */
 
 
 
