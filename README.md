@@ -1,4 +1,4 @@
- # eng-zap-challenge-javascript
+ | eng-zap-challenge-javascript
  # Para rodar localmente, baixar a pasta
  # Abrir a pasta e carregar o index.html
  # Abrir a pasta e carregar o index.html
