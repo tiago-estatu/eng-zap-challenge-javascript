@@ -1,0 +1,82 @@
+body{font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 14px;line-height: 20px;  color: #444;}
+article, aside, details, figcaption, figure, footer, header, nav, section {display: block;margin: 0;padding: 0;}
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {text-decoration: none;}
+
+/* TOPO COM OS BOTÕES PARA FILTRAR IMOVÉIS 
+--------------------------------------------------*/
+#btos-action-filter{padding: 15px;}
+#btos-action-filter h1{font-size: 20px; line-height: 25px;}
+
+
+.logo {padding: 5px 20px;background: #FFF;height: 30px;border-radius: 10px;}
+.logo-viva {background: #1190cd;}
+
+ /* msg erro
+--------------------------------------------------------------*/
+.msgErro{display: block;padding: 20px 0px 0px 0px;color: red}
+
+/* Principal CSS
+-------------------------------------------------------------*/
+.mainContainer{display: table;width: 100%;}
+.centralizer{display: table-cell;text-align: center;vertical-align: middle;}
+.marginAuto {max-width: 665px;margin: 0 auto;}
+
+#insereResultado{position: relative; z-index: 0}
+.resultadoBuscaImovelContainer{float: left;margin: 20px 0px 10px 2px;text-align: left;border-radius: 5px;box-shadow: 0px 3px 3px rgba(0,0,0,0.2);background-color: #fff;position: relative;z-index:0;}
+.resultadoBuscaImovelContainer:hover{box-shadow: 0px 8px 8px rgba(0,0,0,0.3);}
+
+.carrossel{float: left;height:250px; border-radius: 5px;background-color: #e5e5e5;position: relative;overflow: hidden;margin: 0;z-index: 0;}
+
+.resultadoBuscaImovelContainer .caracteristicasContainer {float: left; width: auto;padding: 20px 0px 0px 0px;}
+
+	.caracteristicasContainer .priceContainer {float: left;padding: 0px 0px; max-width: 185px;}
+		.priceContainer .priceGroup{display: block;background-color: #fff;color: #0199de;border: 1px solid #0199de;width: 175px;height: 82px;overflow: hidden;padding: 5px;font-size: 15px;}
+		.priceContainer .priceGroup:hover{color: #ff7e00;border: 1px solid #ff7e00;}
+		.tipoOperacao {display: block;float: left;width: 100%;margin-bottom: 10px;}
+		.metroQuadrado {font-size: 10px;}
+	.caracteristicasContainer .listaCaracteristicas{float: left;margin: 15px 0px 0px 10px;}		
+
+.adressContainer {float: left;line-height: normal;color: #979797;margin-left: 8px;padding-right: 8px;}
+	.adressContainer a {color: #444;}
+	.adressContainer a:hover{color: #ff5a00;}
+	.adressContainer h2 strong {display: block;font-size: 19px;line-height: 19px;font-weight: unset;}
+	.adressContainer h2 span {font-size: 13px;line-height: 13px;}
+	.unitDescription{font-size: 13px;line-height: normal;color: #979797;}
+
+#carregandoMaisImoveis{position: fixed;bottom: 0;left: 0;display: none;width: 100%;height: 20px;font-size: 13px;background: #ff5a00;color: #FFF;text-align: center;}
+#btoVoltar{display: none; position: fixed;top: 0;right: 0;z-index: 1; background: #FFF; padding: 5px; width: auto;height: 20px;font-size: 13px;color: #979797;text-align:left}
+
+.btn-user-actions{float: right;padding:0px 0px 10px 0px}
+.btn-ver-telefone {display: block;float: left;height: 40px;font-size: 14px;line-height: 40px;background: none;border: 0;cursor: pointer;margin: 0px 10px 0px 0px;color: #ff5a00;}
+.btn-primario {float: left;color: #fff!important;background-color: #ff5a00;height: 42px;line-height: 42px;padding: 0 20px;border: 1px solid transparent;border-radius: 5px;cursor: pointer;font-size: 14px;text-transform: uppercase;color: #ff5a00;-webkit-transition: background-color 0.2s ease,color 0.2s ease;transition: background-color 0.2s ease,color 0.2s ease;-webkit-box-sizing: border-box;box-sizing: border-box;}
+
+
+#janelaModalDetalheImovel {width: 100%;height: 100%;background:#444;position: fixed;top: 0;left: 0;z-index: 1;display: none}
+#fecharDetalhe {display: block;float: right;width: auto;color: #FFF;padding: 8px;cursor: pointer;}
+.modalMainContainer{display: table;width: 100%;}
+.centralizaModal{display: table-cell;text-align: center;vertical-align: middle;}
+.marginAutoModal{width:320px;margin: 0 auto}
+
+#insereDetalheImovel {float: left;background: #FFF;}
+#insereDetalheImovel .adressContainer{float: left;width: 100%; color: #444}
+#insereDetalheImovel .priceContainer{float: left;width: 100%}
+
+.caracteristicasContainer .preco {display: block;background-color: #fff;color: #0199de;border-top: 1px solid #0199de;border-bottom: 1px solid #0199de;height: 82px;overflow: hidden;padding: 5px;font-size: 15px;}
+.listaCaracts ul li{display: inline;}
+.navegaFotos {width: 300px; margin-top: 5px}
+	.navegaFotos li{float:left;width: 50%; cursor: pointer}
+	.navegaFotos li span{cursor: pointer}
+
+/* NAVEGAÇÃO DE FOTOS PÁGINA FICHA DETALHE
+------------------------------*/	
+.fotosImoveis {display: none}
+.slideshow-container {max-width:968px;position: relative;margin: auto;}
+.fade {-webkit-animation-name: fade; -webkit-animation-duration: 1.5s; animation-name: fade;animation-duration: 1.5s;}
+@-webkit-keyframes fade {from {opacity: .4} to {opacity: 1}}
+@keyframes fade {from {opacity: .4} to {opacity: 1}}
+
+

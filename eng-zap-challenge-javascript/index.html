@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+
+		<!-- Basic Page Needs
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta charset="utf-8">
+		<title>Code Challenge Grupo ZAP</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta http-equiv="Cache-control" content="no-cache">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- CSS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+
+	</head>
+<body>
+
+<!-- Document HTML begins
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<main class="mainContainer">
+	<div class="centralizer">
+		<div class="marginAuto">
+			
+				<!-- BOTÕES PARA FILTRAR OS IMOVEIS (POR PORTAL) -->
+				<div id="btos-action-filter">
+					<h1>Teste de engenharia do Grupo ZAP</h1>
+					<h3>Clique abaixo para filtrar os imóveis por portal</h3>
+					<a id="btoFilterByZap" href="javascript:void(0)">
+						<img class="logo" src="https://cjs.zapcorp.com.br/Content/img/logotipo_novo_zap.png">
+					</a>
+					<a id="btoFilterByVivaReal" href="javascript:void(0)">
+						<img class="logo logo-viva" src="https://www.vivareal.com.br/anunciar-imoveis/img/vivareal.svg">
+					</a>
+				</div>
+				<!--/ BOTÕES PARA FILTRAR OS IMOVEIS (POR PORTAL) -->
+
+				<div id="insereResultado">
+					<a id="btoVoltar" href="javascript:location.reload()">Voltar</a>
+					<!-- TARGET PARA OS IMOVEIS DA BUSCA  -->
+				</div>
+
+
+				<!-- JANELA MODAL PARA EXIBIÇÃO DA FICHA DETALHE DOS IMÓVEIS  -->
+				<div id="janelaModalDetalheImovel">
+					<a id="fecharDetalhe" href="javascript:void(0)">fechar (x)</a>
+					<div class="modalMainContainer">
+						<div class="centralizaModal">
+							<div class="marginAutoModal">
+								<div id="insereDetalheImovel">
+									<!-- TARGET PARA MOSTRAR DETALHE DOS IMOVEIS  -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /JANELA MODAL PARA EXIBIÇÃO DA FICHA DETALHE DOS IMÓVEIS  -->
+
+
+			</div>
+		</div>
+	</main>
+<!-- End Document HTML
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<span id="carregandoMaisImoveis">Carregando mais imóveis...</span>
+
+<script src="js/imoveis-filter.js"></script>
+<script src="js/html-template-resultado.js"></script>
+<script src="js/template-detalhe-imovel.js"></script>
+
+</body>
+</html>
