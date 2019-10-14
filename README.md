@@ -21,28 +21,28 @@
  ### FLUXO DA APLICAÇÃO
  
  - btoFilterByVivaReal ou btoFilterByZap - (eVENTOS INICIAIS) 
- ------------------- funções principais no fluxo ----------------------------------
-   * getResultados()
-   * ajaxCaller()
-   * mainFunction() - Função controladora do fluxo
-   *      checaImoveisValidos() - Função auxiliar
-   *      vivaBusinessRules() ou zapBusinessRules() - Validação regras de negócio 
-   *      startSessionStoragePrinterOnePage()
-   *      controlaRolagemPages()
-   *      htmlPrinter() - Rederiza o resultado 
-   *                     |- função armazenada em arquivos externo, no mesmo diretório html-template-resultado.js
-   * 
-   *
-   * ------------------- funções auxiliares ------------------------------------
-   * htmlPrinter()
-   * htmlPrinterError()
-   * checkCG() - verificar coordenadas Bouding Box
-   * calculaValorMetroQuadrado() 
-   * checaImoveisValidos() - Elimina os imóveis considerados não elegíveis 
-   * percentValorRent() - verificar o valor da taxa de condomino e compara com valor do aluguel
-   * controlaRolagemPages() - Controla a paginação por demanda
-   * timerMsgCarregando() - msg para user
-   * startSessionStoragePrinterOnePage() - amazenamento local
-   * preparaDetalhes() - Renderiza ficha detalhe do imóveil selecionado
+                  ##### funções principais no fluxo
+   - getResultados()
+   - ajaxCaller()
+   - mainFunction() - Função controladora do fluxo
+   -      checaImoveisValidos() - Função auxiliar
+   -      vivaBusinessRules() ou zapBusinessRules() - Validação regras de negócio 
+   -      startSessionStoragePrinterOnePage()
+   -      controlaRolagemPages()
+   -      htmlPrinter() - Rederiza o resultado 
+   -                     |- função armazenada em arquivos externo, no mesmo diretório html-template-resultado.js
+   - 
+   -
+                            #####funções auxiliares
+   - htmlPrinter()
+   - htmlPrinterError()
+   - checkCG() - verificar coordenadas Bouding Box
+   - calculaValorMetroQuadrado() 
+   - checaImoveisValidos() - Elimina os imóveis considerados não elegíveis 
+   - percentValorRent() - verificar o valor da taxa de condomino e compara com valor do aluguel
+   - controlaRolagemPages() - Controla a paginação por demanda
+   - timerMsgCarregando() - msg para user
+   - startSessionStoragePrinterOnePage() - amazenamento local
+   - preparaDetalhes() - Renderiza ficha detalhe do imóveil selecionado
                         |- função armazenada em arquivos externo, mesma pasta template-detalhe-imovel.js
 
