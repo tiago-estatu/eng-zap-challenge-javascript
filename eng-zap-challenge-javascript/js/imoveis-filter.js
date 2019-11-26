@@ -3,7 +3,7 @@
 
     /* TIAGO ESTATU
         tiagoestatu@hotmail.com
-        Design utilizado FOP
+        Design adotado "functional programming design"
 
         /****************************************************************************
          * ************************* FLUXO DA APLICAÇÃO ****************************
